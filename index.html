@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Modern Yongsie</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#" class="logo">Yongsie</span></a>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#skills">Pengalaman</a></li>
+        <li><a href="#projects">Tugas</a></li>
+        <li><a href="#contact">Kontak</a></li>
+        <li>
+          <a href="https://github.com/usernameanda" target="_blank" class="github-nav">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </li>
+      </ul>
+
+      <div class="menu-toggle" id="menuToggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="container hero-wrapper">
+      
+      <div class="hero-text">
+        <p class="hero-intro">Halo, Saya</p>
+        <h1>Yongsie<span>Web Portofolio</span></h1>
+        <p class="hero-desc">
+          Teknik pengolahan limbah
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">Tugas</a>
+          <a href="https://github.com/usernameanda" target="_blank" class="btn btn-outline">
+            <i class="fab fa-github"></i> GitHub Saya
+          </a>
+        </div>
+
+        <div class="social-links">
+           <a href="https://www.instagram.com/yong.cy_?igsh=NTJlam1tM2EyN3gx" target="_blank">
+    <i class="fab fa-instagram"></i>
+  </a>
+          <a href="https://wa.me/6283188315758" target="_blank">
+  <i class="fab fa-whatsapp"></i>
+</a>
+          <a href="https://www.facebook.com/share/187Y839Wst/" target="_blank">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+          <a href="https://github.com/usernameanda" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <div class="glow-circle"></div>
+        <img src="asset/profile.png" alt="Foto Profil">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+ <section class="about section" id="about">
+  <div class="container">
+    <h2 class="section-title">Tentang Saya</h2>
+
+    <p class="section-desc">
+      Saya adalah mahasiswa Teknik Pengolahan Limbah yang memiliki dedikasi tinggi dalam menjaga keseimbangan antara kemajuan industri dan kelestarian lingkungan. Fokus utama saya terletak pada sistem pengolahan air limbah.
+    </p>
+
+    <p class="section-desc">
+      Selama masa studi, saya aktif mengasah kemampuan analisis laboratorium, pemahaman regulasi lingkungan, dan perancangan unit proses. Saya percaya bahwa limbah bukanlah akhir dari sebuah siklus, melainkan sumber daya yang menunggu untuk dikelola dengan inovasi yang tepat.
+    </p>
+  </div>
+</section>
+
+  <!-- SKILLS -->
+<section class="skills section" id="skills">
+  <div class="container">
+
+    <h2 class="section-title">pengalaman</h2>
+
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <h3>magang</h3>
+        <p>jhn</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>Frelance</h3>
+        <p>hshuhs</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+  <!-- PROJECT -->
+  <section class="projects section" id="projects">
+  <div class="container">
+    <h2 class="section-title">Tugas </h2>
+
+    <div class="projects-grid">
+      <!-- TUGAS 3 -->
+      <div class="project-card">
+        <h3>Landing Page Bisnis</h3>
+        <p>Website promosi profesional dan responsif.</p>
+       <a href="file:///C:/Users/LENOVO/OneDrive/Documents/portofolio">
+  <i class="fas fa-folder-open"></i> Buka File
+</a>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <h2 class="section-title">Hubungi Saya</h2>
+
+      <p>Email: yongsiemisbakh@gmail.com</p>
+      <p>WhatsApp: 083188315758</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Yongsie Portfolio | Modern Responsive Design</p>
+  </footer>
+
+  <!-- JS -->
+  <script>
+    const menuToggle = document.getElementById("menuToggle");
+    const navMenu = document.getElementById("navMenu");
+
+    menuToggle.addEventListener("click", () => {
+      navMenu.classList.toggle("active");
+    });
+  </script>
+
+</body>
+</html>
